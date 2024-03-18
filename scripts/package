@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+pkl project package --overwrite --output-path dist
