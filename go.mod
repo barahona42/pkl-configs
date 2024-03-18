@@ -1,4 +1,4 @@
-module configs
+module github.com/barahona42/pklconfigs
 
 go 1.21.5
 

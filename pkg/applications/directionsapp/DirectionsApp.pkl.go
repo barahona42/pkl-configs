@@ -1,11 +1,11 @@
-// Code generated from Pkl module `barahona42.configs.applications.DirectionsApp`. DO NOT EDIT.
+// Code generated from Pkl module `barahona42.configs.pkg.applications.DirectionsApp`. DO NOT EDIT.
 package directionsapp
 
 import (
 	"context"
 
-	"configs/pkg/applications/core"
 	"github.com/apple/pkl-go/pkl"
+	"github.com/barahona42/pklconfigs/pkg/applications/core"
 )
 
 type DirectionsApp struct {

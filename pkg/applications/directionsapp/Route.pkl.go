@@ -1,4 +1,4 @@
-// Code generated from Pkl module `barahona42.configs.applications.DirectionsApp`. DO NOT EDIT.
+// Code generated from Pkl module `barahona42.configs.pkg.applications.DirectionsApp`. DO NOT EDIT.
 package directionsapp
 
 type Route struct {

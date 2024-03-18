@@ -1,5 +1,5 @@
-@go.Package { name = "configs/pkg/applications/core" }
-module barahona42.configs.applications.Core
+@go.Package { name = "github.com/barahona42/pklconfigs/pkg/applications/core" }
+module barahona42.pklconfigs.pkg.applications.Core
 
 import "package://pkg.pkl-lang.org/pkl-go/pkl.golang@0.6.0#/go.pkl"
 

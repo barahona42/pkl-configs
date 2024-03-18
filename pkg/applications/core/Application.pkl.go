@@ -1,4 +1,4 @@
-// Code generated from Pkl module `barahona42.configs.applications.Core`. DO NOT EDIT.
+// Code generated from Pkl module `barahona42.pklconfigs.pkg.applications.Core`. DO NOT EDIT.
 package core
 
 type Application struct {
