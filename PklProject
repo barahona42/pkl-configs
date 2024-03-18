@@ -2,9 +2,9 @@ amends "pkl:Project"
 
 package{
     name="pklconfigs"
-    baseUri="package://github.com/barahona42/\(name)"
+    baseUri="package://raw.githubusercontent.com/barahona42/\(name)/main/dist/\(name)@\(version)"
     version="0.0.1"
-    packageZipUrl="https://github.com/barahona42/\(name)/raw/main/dist/\(name)@\(version).zip"
+    packageZipUrl="https://raw.githubusercontent.com/barahona42/\(name)/main/dist/\(name)@\(version).zip"
     authors{
         "rene.barahona42@gmail.com"
     }
