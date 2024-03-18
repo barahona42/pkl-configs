@@ -1,0 +1,32 @@
+@go.Package { name = "configs/pkg/applications/directionsapp" }
+module barahona42.configs.applications.DirectionsApp
+
+import "package://pkg.pkl-lang.org/pkl-go/pkl.golang@0.6.0#/go.pkl"
+import "Core.pkl"
+
+class Route{
+    Origin: String
+
+    Destination: String
+
+    Label: String
+}
+
+class Directions {
+    PollRate: Duration
+
+    RunTime: Duration
+    
+    ApiKey: String
+    
+    Routes: Listing<Route>
+    
+    RoutesFile: String
+    
+    Routesdb: String
+}
+
+
+Application: Core.Application
+
+Configuration: Directions

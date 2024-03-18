@@ -1,0 +1,10 @@
+@go.Package { name = "configs/pkg/applications/core" }
+module barahona42.configs.applications.Core
+
+import "package://pkg.pkl-lang.org/pkl-go/pkl.golang@0.6.0#/go.pkl"
+
+class Application{
+    Name: String
+    
+    Description: String
+}

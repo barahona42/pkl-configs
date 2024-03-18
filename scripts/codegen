@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+rm -rf pkg/applications
+
+for file in $(find ./pkl -type f -name "*.pkl"); do
+    echo "Generating code for $file"
+    pkl-gen-go $file || (echo "failed to generate code. exiting" && exit 1)
+done
+
+go mod tidy
