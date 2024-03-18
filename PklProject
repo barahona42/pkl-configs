@@ -4,5 +4,8 @@ package{
     name="pklconfigs"
     baseUri="package://github.com/barahona42/\(name)"
     version="0.0.1"
-    packageZipUrl="https://github.com/barahona42/\(name)/dist/\(name)@\(version).zip"
+    packageZipUrl="https://github.com/barahona42/\(name)/raw/main/dist/\(name)@\(version).zip"
+    authors{
+        "rene.barahona42@gmail.com"
+    }
 }
