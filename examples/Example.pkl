@@ -1,0 +1,21 @@
+amends "package://raw.githubusercontent.com/barahona42/pklconfigs/main/dist/pklconfigs@0.0.1#/pkl/DirectionsApp.pkl"
+
+Application{
+    Name="DirectionsApp"
+    Description="This application will get the directions from the origin to the destination"
+}
+
+Configuration{
+    PollRate = 10.s
+    RunTime= 60.s
+    ApiKey= "123123123123123123123123123"
+    RoutesFile="/etc/directions/routes.yml"
+    Routesdb="/var/directions/routes.db"
+    Routes{
+        new Route{
+            Origin="3454 Address St, City, ST 12345"
+            Destination="1231 Address St, City, ST 12345"
+            Label="example to example"
+        }
+    }
+}
