@@ -4,5 +4,5 @@ package{
     name="pklconfigs"
     baseUri="package://github.com/barahona42/\(name)"
     version="0.0.1"
-    packageZipUrl="https://github.com/barahona42/pklconfigs/archive/refs/tags/0.0.1.zip"
+    packageZipUrl="https://github.com/barahona42/\(name)/dist/\(name)@\(version).zip"
 }
